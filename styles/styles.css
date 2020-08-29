@@ -1,0 +1,222 @@
+/*-----------------------------------
+        SETTINGS
+ ----------------------------------*/
+/*font-family: 'Rubik', sans-serif;*/
+/*font-family: 'Expletus Sans', cursive;*/
+
+
+
+
+
+/*-----------------------------------
+        GENERIC
+ ----------------------------------*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Liste à puce sur tous les LI */
+
+li {
+    list-style: none;
+}
+
+/* Enlever la marge sur les H1 et H2 */
+
+h1, h2 {
+    margin: 0;
+}
+
+
+
+/*-----------------------------------
+        ELEMENTS
+ ----------------------------------*/
+
+body {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 25px;
+    margin: 0;
+}
+
+/*  STYLER LES A */
+
+a {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+/* STYLER LES HOVER DES A */
+
+a:hover {
+    color: #FFFCFC;
+    text-decoration: underline;
+}
+
+/* STYLES LES H1 */
+
+h1 {
+    color: #2D2D2D;
+    font: 600 6rem/125px "Expletus Sans", sans-serif ;
+}
+
+/* STYLER LES H2 */
+
+h2 {
+    color: #FFF;
+    font: 600 4rem/83px "Expletus Sans", sans-serif ;
+}
+
+
+/*----------------------------------
+        COMPONENTS
+ ---------------------------------*/
+
+.conteneur {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* HEADER */
+
+.header-principal {
+    height: 61px;
+    background-color: #FF9800;
+}
+
+.nav-principale ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: auto;
+    width: 235px;
+}
+
+.nav-principale {
+    display: flex;
+    align-content: center;
+}
+
+
+/* HERO */
+
+.hero {
+    background: #FFC107;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    padding: 80px 0;
+}
+
+/* INFORMATIONS */
+
+.information {
+    padding: 30px 0;
+}
+
+.information .conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+
+.carte header {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.carte:nth-child(1) header {
+    background-color: #E64A19;
+}
+
+.carte:nth-child(2) header {
+    background-color: #0270BB;
+}
+
+.carte:nth-child(3) header {
+    background-color: #F8DC3D;
+}
+
+.conteneur .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.information footer {
+    font-size: 0.875rem;
+}
+
+/* BOUTONS */
+
+.bouton {
+    padding: 10px;
+
+    background-color: #FFC107;
+    border: 1px solid #E64A19;
+    border-radius: 5px;
+}
+
+.bouton:hover {
+    background-color: #E64A19;
+
+    text-decoration: none;
+}
+
+
+/* STATISTIQUES */
+
+.carte-footer span {
+    color: #E64A19;
+}
+
+.carte-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* FOOTER */
+
+.footer-principal, h3 {
+    margin: 0;
+
+    font-size: 0.875rem;
+}
+
+.footer-principal {
+    height: 60px;
+
+    background: #E64A19;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.footer-principal div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/*----------------------------------
+        UTILITIES
+ ----------------------------------*/
+
